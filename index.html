@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -19,23 +19,23 @@
     </header>
     <main>
         <section>
-            <textarea class="text-area1" cols="30" rows="10" placeholder="Ingrese su texto aqui"></textarea>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese su texto aqui"></textarea>
             <div>
                 <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
             </div>
             <div class="botones">
-                <button class="b-encriptar">Encriptar</button>
-                <button class="b-desencriptar">Desencriptar</button>
+                <button class="b-encriptar" onclick="bencriptador()">Encriptar</button>
+                <button class="b-desencriptar" onclick="bdesencriptador()">Desencriptar</button>
             </div>
 
         </section>
         <section>
             <textarea class="mensaje" cols="20" rows="10"></textarea>
             <div>
-                <button class="copiar">Copiar</button>
+                <button class="copiar" onclick="copiartext()">Copiar</button>
             </div>
         </section>
     </main>
 </body>
-
+<script src="index.js"></script>
 </html>
